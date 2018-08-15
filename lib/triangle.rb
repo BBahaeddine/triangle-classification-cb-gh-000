@@ -14,13 +14,6 @@ class Triangle
       return :isosceles
     else
       return :scalene
-    elsif @length_side1 == 0 && @length_side2 == 0 && @length_side3 == 0
-      begin
-        raise TriangleError
-        rescue TriangleError => error 
-          puts error.message
-        end
-    end
     
   end
 
