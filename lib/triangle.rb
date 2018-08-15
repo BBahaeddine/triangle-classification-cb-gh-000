@@ -22,18 +22,6 @@ class Triangle
         end
     end
     
-<<<<<<< HEAD
-    # if @length_side1 == 0 && @length_side2 == 0 && @length_side3 == 0
-    #   begin
-    #     raise TriangleError
-    #     rescue TriangleError => error 
-    #       puts error.message
-    #     end
-    # end
-    
-=======
->>>>>>> 0cd0b5ec9f3078d998d5c35b8ebdef75a710d534
-    
   end
 
   class TriangleError < StandardError
